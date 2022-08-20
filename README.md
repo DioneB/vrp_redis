@@ -17,6 +17,10 @@
 ## Methods
 
 ```lua
+-- Get vrp_redis Reference/Functions (ONLY SERVER-SIDE)
+
+local Cache = Proxy.getInterface("vrp_redis")
+
 
 -- Save data on Redis Cache | if not "expire_time" passed they will persistent
 Cache.set(key, value, expire_time)
