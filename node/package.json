@@ -1,0 +1,19 @@
+{
+  "name": "vrp-redis",
+  "version": "0.1.0",
+  "description": "cache system",
+  "author": {
+    "name": "Dione B"
+  },
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "ioredis": "^4.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
